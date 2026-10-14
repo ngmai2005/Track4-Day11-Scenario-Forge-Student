@@ -1,0 +1,46 @@
+{
+  "format": "avsim-studio/1",
+  "params": {
+    "cutT0": 5.0,
+    "cutDur": 2.4,
+    "cutV": 15.0,
+    "pedT0": 9.6,
+    "pedV": 1.45,
+    "busGo": 17.5,
+    "cutDs": -4.0,
+    "tgT": 0.9,
+    "mu": 0.8,
+    "cutGap": null,
+    "cutBrake": 0.0,
+    "pedGap": null,
+    "pedLook": 0,
+    "civil": false
+  },
+  "policy": {},
+  "hazards": [
+    {
+      "type": "ped",
+      "x": 95.0,
+      "side": "N",
+      "v": 1.4,
+      "t0": 0.0,
+      "trig": 78.0
+    }
+  ],
+  "space": {
+    "h0_x": [
+      92.0,
+      98.0
+    ],
+    "h0_v": [
+      1.2,
+      1.6
+    ],
+    "h0_trig": [
+      72.0,
+      84.0
+    ]
+  },
+  "exposure": 0.03,
+  "why": "Người đi bộ sang đường tự phát ngoài vạch (jaywalking) từ lề phía Bắc tại x = 95m (đoạn giữa phố, trước vạch sang đường x = 122m). Theo Báo cáo An toàn Giao thông Đô thị (WHO & UB ATGT Quốc gia), người đi bộ băng cắt không đúng nơi quy định chiếm khoảng 25-30% các vụ tai nạn liên quan đến người đi bộ tại các trục phố đô thị; tần suất bắt gặp tình huống người băng cắt ngoài vạch ước tính khoảng 0.03 lần mỗi chuyến đi (khoảng 1 lần trong 30-35 chuyến đi nội thị). Vận tốc đi bộ dao động 1.2 - 1.6 m/s (trung bình 1.4 m/s của người trưởng thành), cự ly kích hoạt khi xe ta cách 72 - 84m (người bắt đầu băng qua các làn đối diện trước khi bước vào làn E1 của xe ta)."
+}
